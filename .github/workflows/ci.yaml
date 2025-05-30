@@ -18,7 +18,6 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Validate Terraform
-      - name: Validate Terraform
         #uses: david-de-klerk/demg-mgt-template/.github/actions/validate@main
         uses: david-de-klerk/demg-mgt-template/.github/actions/validate@test-pipeline
         with:
